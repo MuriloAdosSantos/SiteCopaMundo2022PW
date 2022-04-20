@@ -1,0 +1,120 @@
+hgroup ► Serve para agrupar titulos semelhantes.
+img ► Serve para construir/adicionar imagens.
+br ► quebra de linha (pular linha dentro do paragrafo)
+&nbsp; ► serve para dar espaço na linha entra as palavras.
+<p> </p> ► paragrafo
+h1 ate h6 sao hierarquias de titulos 
+wbr ► usado para realizar a quebra de texto de palavaras com uso de hifens.
+&shy ► realiza a quebra de palavaras com hifenização
+Simbolos especiais:
+	► &lt; = < (maior que)
+	► &gt; = > (menor que)
+	► &le; = ≤ (maior ou igual)
+	► &ge; = ≥ (menor ou igual)
+	► &pound; = £ (libra)
+	► &yen; = ¥ (yen)
+	► &euro; = € (euro)
+
+<b> e </b> ► colocar as palavras entre estas tags em negrito
+<i> e </i> ► colocar as palavras entres estas tags em Italico
+<em> </em> ► significa enfase e tambem parece com o Italico, desta forma a semantica do html e melhor visualizada e pelos usuarios.
+<u> </u> ► Serve para sublinhar as palavras
+<del> </del> ► serve para riscar as palvras que significam que foram deletadas.
+<figure> </figure> ► utilizada para colocar imagens e dar um siginificado semantico a elas.
+<figcaption>  </figcaption> ► serve para incluir a legenda das imagens.
+<link> </link> ► usado para lincar o html com o CSS
+<Stylesheet> ► Folha de estilo usado para lincar o html ao CSS
+ href (Hypertext Reference) ► serve para chamar um arquivo de fora do html
+padding ►
+box-sizing: border-box ► cria um box dentro da borda
+hover ► dispara uma classe especifica e ou uma formatação expecifica quando vc passar o mouse por cima do objeto que no caso e o figurecaption.
+<nav> </nav> ► cria uma area de navegação
+Ordered Lists- ol ► listas ordenadas
+Unordered lists - ul ► listas nao ordenadas
+List items - li ► lista de itens
+<a> </a> ► ancora
+target="_blank ► serve para quando criar um link externo dentro do site vc clicar no link ele abra uma nova guia.
+target="_self ► serve para quando criar um link externo dentro do site vc clicar no link ele abra na mesma aba substituindo do seu site na guia.
+/* */ ► e usado no CSS para incluir os comentarios
+section ► Sessão
+aside ► Conteudo Lateral
+footer ► Rodapé
+clear: both; ► limpe as configurações dos dois lados
+<tr> = table rows ► quer dizer linhas de tabelas
+<td> = table data ► quer dizer celulas de tabelas
+rowspan ► expansao em linha
+colspan ► expansao em colunas
+<article> ► artigo
+Obs: sobre as tecnologias HTML, CSS, JavaScript
+	► Tudo que for definido em CSS tem que estar dentro da tag <Stile> ou parametro Stile.
+	► Tudo que for definido em JavaScript tem que estar dentro da tag <script> ou dentro de parametros especificos para isso assim eu vou ter
+	que criar outras areas de script dentro do meu documento ´porem eu posso ter quantas eu quiser.
+
+JavaScript
+
+() ► paramentros
+{} ► codigos
+document.right ► para escrever na tela
+document.getElementById("") ► para pegar um documento pelo id.
+if = se ► nos codigos o if representa a palavra se entao toda vez que for incluir um codigo que tenha se devemos substituir por if.
+== ► igual no javaScript sao representados por 2 iguais.
+= ► 1 simbolo de igual representa a atribuição.
+true ► verdadeiro
+! ► este simbolo se refere a NÃO no JavaScript
++ ► representa a concatenação em JavaScrip
+Ctrl + Alt + T ► e um atalho que serve para incluir as <> (tags) na area pré selecionada abrindo e fechando.
+Alt ► é um parametro do img e quer dizer texto alternativo 
+A tag INPUT com o parâmetro TYPE = “text” cria uma caixa de texto.
+
+O parâmetro SIZE indica a quantidade de caracteres exibidos simultaneamente em uma caixa de texto.
+
+O parâmetro MAXLENGTH indica a quantidade de caracteres aceitos em uma caixa de texto.
+
+Entenda a diferença entre SIZE e MAXLENGTH.
+
+O parâmetro PLACEHOLDER configura um conteúdo informativo dentro de um objeto de formulário. Ao clicar sobre o objeto, o PLACEHOLDER desaparecerá.
+
+Para criar uma caixa de senha em um formulário HTML, utilizaremos a tag INPUT com TYPE = “password”
+A tag FORM serve para criar um formulário, onde o usuário vai poder interagir com seu site e fornecer dados.
+A tag FIELDSET em HTML cria conjuntos de campos agrupados dentro de uma linha container que vai identificar cada uma das sessões.
+
+A tag LEGEND cria uma legenda para cada FIELDSET, um texto que fica sobre as linhas.
+
+A tag INPUT serve para criar a grande maioria dos campos de formulários em HTML5. Nessa aula, veremos alguns valores para o parâmetro TYPE:
+A tag INPUT com o parâmetro TYPE = “text” cria uma caixa de texto.
+
+O parâmetro SIZE indica a quantidade de caracteres exibidos simultaneamente em uma caixa de texto.
+
+O parâmetro MAXLENGTH indica a quantidade de caracteres aceitos em uma caixa de texto.
+
+Entenda a diferença entre SIZE e MAXLENGTH.
+
+O parâmetro PLACEHOLDER configura um conteúdo informativo dentro de um objeto de formulário. Ao clicar sobre o objeto, o PLACEHOLDER desaparecerá.
+
+Para criar uma caixa de senha em um formulário HTML, utilizaremos a tag INPUT com TYPE = “password”
+
+Caixas de senha também suportam SIZE, MAXLENGTH e PLACEHOLDER.
+
+Para solicitar um e-mail. utilizaremos INPUT com TYPE = “email”, que é exclusivo da HTML5.
+
+Para criar opções a serem selecionadas na forma de botões de rádio, utilizaremos INPUT com parâmetro TYPE = “radio”. Para deixar uma opção previamente marcada, utilizamos o parâmetro CHECKED.
+
+OBS: Para objetos do tipo RADIO que fazem parte de um mesmo grupo, todos devem ter o mesmo NAME. Isso é muito importante.
+
+Para criar palavras relacionadas a objetos de formulário, utilizamos a tag LABEL com um ID. Para criar a relação entre objetos e LABEL, utilizamos o parâmetro FOR do objeto.
+
+A tag INPUT com parâmetro TYPE = “date”, cria uma caixa de seleção de data, com um calendário (depende do navegador utilizado).
+
+Para permitir a entrada de valores numéricos, utilizamos INPUT com parâmetro TYPE=”number”. Nesse caso, os parâmetros MIN e MAX definem os valores mínimo e máximo para caixas desse tipo.
+
+Para a tag FORM, o parâmetro METHOD aceita os valores GET e POST:
+– O método GET envia dados via URL (endereço do site). É um método mais rápido e menos seguro.                                                                                                                                                            – O método POST envia dados por pacotes. É um método um pouco mais lento, mas possui uma segurança maior.
+
+O parâmetro ACTION indica o local para onde os dados serão enviados. Quem utiliza MAILTO, deve ter um cliente de e-mail previamente configurado.
+A tag SELECT cria caixas combinadas, utilizando a tag OPTION para criar as opções.
+
+O parâmetro SELECTED serve para tornar um OPTION padrão. Os valores podem ser definidos com o parâmetro VALUE.
+Como enviar arquivos HTML para o servidor?                        Como utilizar o FTP para enviar arquivos?                         Como hospedar um site criado em HTML5?                            Qual o melhor servidor de hospedagem de sites?                    Qual é a diferença entre hospedagem e domínio?                    Como comprar um domínio?                                          Como contratar uma hospedagem de sites?
+
+A resposta para essas e muitas outras perguntas você vai encontrar nessa aula do Curso Grátis de HTML5. Veja como comprar um domínio, contratar um plano de hospedagem com desconto e enviar os arquivos HTML para o servidor, usando uma ferramenta FTP gratuita: o Filezilla.
+
