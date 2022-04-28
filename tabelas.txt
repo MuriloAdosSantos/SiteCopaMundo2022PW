@@ -1,0 +1,56 @@
+ <table>
+        <caption>Grupo A</caption>
+        <tr><td>Qatar &#127478;&#127462;</td> </tr>
+        <tr><td>Equador &#127466;&#127464;</td></tr>
+        <tr><td>Senegal &#127480;&#127475;</td></tr>
+        <tr><td>Holanda &#127475;&#127473;</td></tr>
+    </table>
+    <table>
+        <caption>Grupo B</caption>
+        <tr><td>Inglaterra &#127468;&#127463;</td> </tr>
+        <tr><td>Irã &#127470;&#127479;</td></tr>
+        <tr><td>Estados Unidos &#127482;&#127480;</td></tr>
+        <tr><td>País de Gales x Escócia ou Ucrânia</td></tr>
+    </table>
+    <table>
+        <caption>Grupo C</caption>
+        <tr><td>Argentina &#127462;&#127479;</td> </tr>
+        <tr><td>Arábia Saudita &#127480;&#127462;</td></tr>
+        <tr><td>México &#127474;&#127485;</td></tr>
+        <tr><td>Polônia &#127477;&#127473;</td></tr>
+    </table>
+    <table>
+        <caption>Grupo D</caption>
+        <tr><td>França &#127467;&#127479;</td></tr>
+        <tr><td>Austrália ou Emirados Árabes x Peru</td></tr>
+        <tr><td>Dinamarca &#127465;&#127472;</td></tr>
+        <tr><td>Tunísia &#127481;&#127475;</td></tr>
+    </table>
+    <table>
+        <caption>Grupo E</caption>
+        <tr><td>Espanha &#127466;&#127480;</td> </tr>
+        <tr><td>Costa Rica x Nova Zelândia</td></tr>
+        <tr><td>Alemanha &#127465;&#127466;</td></tr>
+        <tr><td>Japão &#127471;&#127477;</td></tr>
+    </table>
+    <table>
+        <caption>Grupo F</caption>
+        <tr><td>Bélgica &#127463;&#127466;</td> </tr>
+        <tr><td>Canadá &#127464;&#127462;</td></tr>
+        <tr><td>Marrocos &#127474;&#127462;</td></tr>
+        <tr><td>Croácia &#127469;&#127479;</td></tr>
+    </table>
+    <table>
+        <caption>Grupo G</caption>
+        <tr><td>Brasil &#127463;&#127479;</td> </tr>
+        <tr><td>Sérvia &#127479;&#127480;</td></tr>
+        <tr><td>Suíça &#127464;&#127469;</td></tr>
+        <tr><td>Camarões &#127464;&#127474;</td></tr>
+    </table>
+    <table>
+        <caption>Grupo H</caption>
+        <tr><td>Portugal &#127477;&#127481;</td> </tr>
+        <tr><td>Gana &#127468;&#127469;</td></tr>
+        <tr><td>Uruguai &#127482;&#127486;</td></tr>
+        <tr><td>Coreia do Sul &#127472;&#127479;</td></tr>
+    </table>
