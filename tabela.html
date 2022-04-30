@@ -2,71 +2,81 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8" />
-    <title> Copa do Mundo 2022</title>
-    <link rel="stylesheet" href="_css/estilo.css" />
-
-
+	<meta charset="UTF-8" />
+	<title> Tabela dos Times</title>
+	<link rel="stylesheet" href="_css/estilo.css" />
+	<link rel="stylesheet" href="_css/estadios.css" />
 </head>
 <script language="javascript" src="_javascript/funcoes.js"> </script>
 
 <body>
-    <style type="text/css">
+	<style type="text/css">
 		body {
-			background-image: url(../SiteCopaMundo2022PW/_imagens/fundotabela.jpg);
+			background-image: url(fundotabela.jpg);
 		}
 	</style>
-    <div id="interface">
+	<div id="interface">
 
-        <header id="cabecalho">
-            <hgroup>
-                <h1 style="text-align: center;">Tabelas World Cup 2022</h1>
-                <h2 style="text-align: center;">Veja em qual Grupo está cada seleção</h2>
-            </hgroup>
+		<header id="cabecalho">
+			<hgroup>
+				<h1 style="text-align: center;">Tabelas De Grupo</h1>
+				<h2 style="text-align: center;">Veja em qual Grupo está cada seleção</h2>
+			</hgroup>
+			<img id="icone" src="_imagens/estadioCatar.png">
 
-            <img id="icone" src="_imagens/tabela.png">
+			<nav id="menu">
+				<h1>Menu Principal</h1>
+				<ul type="disc">
+					<li onmouseover="mudaFoto('_imagens/Flag_of_Qatar.svg.png')"
+						onmouseout="mudaFoto('_imagens/2022_FIFA_World_Cup.svg2.png')"><a href="index.html">Catar</a>
+					</li>
+					<li onmouseover="mudaFoto('_imagens/bolaFifa2.png')"
+						onmouseout="mudaFoto('_imagens/2022_FIFA_World_Cup.svg2.png')"><a href="specs.html">Seleções</a>
+					</li>
+					<li onmouseover="mudaFoto('_imagens/estadioCatar.png')"
+						onmouseout="mudaFoto('_imagens/2022_FIFA_World_Cup.svg2.png')"><a
+							href="estadios.html">Estádios</a></li>
+					<li onmouseover="mudaFoto('_imagens/tabela.png')"
+						onmouseout="mudaFoto('_imagens/2022_FIFA_World_Cup.svg2.png')"><a href="tabela.html">Tabela</a>
+					</li>
+				</ul>
+			</nav>
 
-            <nav id="menu">
-                <h1>Menu Principal</h1>
-                <ul type="disc">
-                    <li onmouseover="mudaFoto('_imagens/Flag_of_Qatar.svg.png')"
-                        onmouseout="mudaFoto('_imagens/2022_FIFA_World_Cup.svg2.png')"><a href="index.html">Catar</a>
-                    </li>
-                    <li onmouseover="mudaFoto('_imagens/bolaFifa2.png')"
-                        onmouseout="mudaFoto('_imagens/2022_FIFA_World_Cup.svg2.png')"><a href="specs.html">Seleções</a>
-                    </li>
-                    <li onmouseover="mudaFoto('_imagens/estadioCatar.png')"
-                        onmouseout="mudaFoto('_imagens/2022_FIFA_World_Cup.svg2.png')"><a
-                            href="estadios.html">Estádios</a></li>
-                    <li onmouseover="mudaFoto('_imagens/tabela.png')"
-                        onmouseout="mudaFoto('_imagens/2022_FIFA_World_Cup.svg2.png')"><a href="tabela.html">Tabela</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section id="corpo-full">
-            <article id="noticia-principal">
-                <header id="cabecalho-artigo">
-                    <hgroup>
-                        <h3></h3>
-                        <h1 style="text-align: center;">Tabela de Grupos</h1>
+		</header>
+		<section id="corpo-full">
+			<article id="noticia-principal">
+				<header id="cabecalho-artigo">
+					<hgroup>
+						<h3>Fotos e links sobre cada Grupo (clique no nome do Grupo para mais
+							detalhes)</h3>
+						<h1 style="text-align: center;">Grupos sorteados na Copa do Mundo FIFA Qatar 2022</h1>
 
-                    </hgroup>
-                </header>
+					</hgroup>
+				</header>
+
+				<ul id="album-fotos">
+					<li id="foto09"><a href="_estadios/Lusail.html"><span>Grupo A</span></li></a>							
+					<li id="foto10"><a href="_estadios/AlBayt.html"><span>Grupo B</span></li></a>
+					<li id="foto11"><a href="_estadios/AbuAboud.html"> <span>Grupo C</span></li></a>
+					<li id="foto12"><a href="_estadios/AlThumana.html"><span>Grupo D</span></li></a>
+					<li id="foto13"><a href="_estadios/CityEducacao.html"><span>Grupo E</span></li></a>
+					<li id="foto14"><a href="_estadios/AhmedAli.html"><span>Grupo F</span></li></a>
+					<li id="foto15"><a href="_estadios/Khalifa.html"><span>Grupo G</span></li></a>
+					<li id="foto16"><a href="_estadios/AlJanoub.html"><span>Grupo H</span></li></a>
+				</ul>
 
 
+			</article>
+		</section>
 
-            </article>
-        </section>
-
-        <footer id="rodape">
-            <p>Copyright 2022 - by Celso Freitas - Jean Michell - Murilo Almeida - Lucas - Carlos Augusto - Tiago Sousa
-                </br>
-                <a></a>
-                <a></a>
-            </p>
-        </footer>
-    </div>
+		<footer id="rodape">
+			<p>Copyright 2022 - by Celso Freitas - Jean Michell - Murilo Almeida - Lucas - Carlos Augusto - Tiago Sousa
+				</br>
+				<a></a>
+				<a></a>
+			</p>
+		</footer>
+	</div>
 
 </html>
 </body>
